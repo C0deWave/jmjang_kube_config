@@ -20,7 +20,7 @@ expose:
     auto:
       # The common name used to generate the certificate, it's necessary
       # when the type isn't "ingress"
-      commonName: "harbor.c0dewave.com"
+      commonName: "harbor.jmjang.net"
     secret:
       # The name of secret which contains keys named:
       # "tls.crt" - the certificate
@@ -33,8 +33,8 @@ expose:
       notarySecretName: ""
   ingress:
     hosts:
-      core: harbor.c0dewave.com
-      notary: notary.c0dewave.com
+      core: harbor.jmjang.net
+      notary: notary.jmjang.net
     # set to the type of ingress controller if it has specific requirements.
     # leave as `default` for most ingress controllers.
     # set to `gce` if using the GCE ingress controller
@@ -124,7 +124,7 @@ expose:
 # the IP address of k8s node
 #
 # If Harbor is deployed behind the proxy, set it as the URL of proxy
-externalURL: https://harbor.c0dewave.com
+externalURL: https://harbor.jmjang.net
 
 # The internal TLS used for harbor components secure communicating. In order to enable https
 # in each components tls cert files need to provided in advance.
