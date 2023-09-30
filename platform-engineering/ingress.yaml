@@ -4,7 +4,7 @@ kind: Ingress
 metadata:
   name: platform-ingress
   namespace: platform
-  annotation:
+  annotations:
     kubernetes.io/ingress.class: nginx
     kubernetes.io/tls-acme: 'true'
     ingress.kubernetes.io/ssl-redirect: 'true'
