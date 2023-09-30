@@ -6,7 +6,7 @@ metadata:
   namespace: platform
 spec:
   selector:
-    app: platform-service
+    app: platform-was
   type: ClusterIP
   ports:
   - name: platform-service
