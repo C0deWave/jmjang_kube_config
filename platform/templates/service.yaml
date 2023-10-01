@@ -6,10 +6,10 @@ metadata:
   namespace: platform
 spec:
   selector:
-    app: platform-service
+    app: platform-was
   type: ClusterIP
   ports:
-  - name: platform-service
+  - name: http
     protocol: TCP
     port: 8080
 ---
