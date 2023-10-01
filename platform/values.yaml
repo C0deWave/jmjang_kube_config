@@ -1,0 +1,3 @@
+platform:
+  image: harbor.jmjang.net/platform_engineering/was
+  tag: '61'
